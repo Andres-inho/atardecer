@@ -1,0 +1,59 @@
+.contenedor{
+    background-color: gray;
+    width: 1700px;
+    height: 1000px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items:center;
+    
+    
+}
+.uno{
+    background-color: white;
+    width: 320px;
+    height: 350px;
+    box-shadow: 0px 0px 5px black;
+    text-align:left;
+    position: relative;
+}
+.dos{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    justify-content:right
+    
+}
+body{
+    background-color:gray ;
+}
+img{
+    width: 320px;
+    height: 250px;
+}
+.tooltipe{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    border-radius: 50px ;
+    text-align: center;
+}
+.info{
+    background-color: black;
+    position:absolute;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+    
+}
+
+.tooltipe:hover .info{
+    visibility: visible;
+    opacity: 5;
+}
