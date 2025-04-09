@@ -16,7 +16,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         box-shadow: 0px 0px 10px black;
-        background-image:  url(/img/GATOO.jpg);
+        background-image:  url(/static/img/GATOO.jpg);
     }
     nav{
         display: flex;
