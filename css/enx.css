@@ -1,0 +1,133 @@
+    .contenedor{
+    
+    width: 1700px;
+    height: 1000px;
+    
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items:center;
+    margin: auto;
+     }
+    header{
+        display: flex;
+        background-color: brown;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        box-shadow: 0px 0px 10px black;
+        background-image:  url(/img/GATOO.jpg);
+    }
+    nav{
+        display: flex;
+        min-height: 70px;
+        align-items: center;
+       
+        
+    }
+    .logo{
+        display: flex;
+        color: black;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+    nav a{
+        font-weight: 600;
+        padding: 10px;
+    }
+    nav a:hover{
+        transition: 1s;
+        margin: 5px;
+        color: rgb(0, 0, 0);
+        box-shadow: 0px 0px 15px;
+        border-radius: 10px;
+    }
+    nav a:active{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        background-color: beige;
+        border-radius: 10px;
+    }
+    a img:hover{
+        transition: 1s;
+        margin: 5px;
+        color:rgb(133, 31, 228) ;
+        box-shadow: 0px 0px 15px;
+        border-radius: 10px;
+    }
+    
+    p{
+        color: darkcyan;
+    }
+    .parrafo{
+        color: darkblue;
+    }
+
+    .encabezado{
+    color: white;
+    text-align: center;
+    }
+    .uno{
+    background-color: beige;
+    width: 320px;
+    height: 350px;
+    box-shadow: 0px 0px 5px black;
+    text-align:center;
+    position: relative;
+    border-radius: 10px;
+    
+    }
+    .dos{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    justify-content:right
+    
+    }
+    body{
+    background-color: beige;
+    
+    }
+    img{
+    width: 320px;
+    height: 250px;
+    border-radius: 5px;
+    }
+    .tooltipe{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    border-radius: 50px ;
+    text-align: center;
+    color: white;
+    }
+    .info{
+    background-color: black;
+    position:absolute;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+    
+    }
+
+    .tooltipe:hover .info{
+    visibility: visible;
+    opacity: 5;
+    }
+    .uno:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px black;
+    }
